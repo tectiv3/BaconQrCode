@@ -162,7 +162,7 @@ class Encoder
      * Chooses the best mode for a given content.
      *
      * @param  string $content
-     * @param  string $encoding
+     * @param  string|null $encoding
      * @return Mode
      */
     protected static function chooseMode($content, $encoding = null)
